@@ -16,7 +16,7 @@ document.getElementById("getTitleBtn").addEventListener("click", () => {
         });
       });
     }, delay);
-    delay += 3000; // 10s delay between openings
+    delay += 3000;
   });
 });
 
@@ -48,5 +48,5 @@ function scrapeAndSendData() {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(profile),
     }).then(() => console.log("Profile posted:", profile));
-  }, 5000); // wait for content to load
+  }, 3000);
 }

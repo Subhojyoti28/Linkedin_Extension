@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 15px;
+  width: 300px;
+  background: red;
+}
+
+.container {
+  text-align: center;
+}
+
+button {
+  padding: 8px 12px;
+  margin-top: 10px;
+  background: yellow;
+  cursor: pointer;
+}
+
+#tabTitle {
+  margin-top: 15px;
+  color: blue;
+  font-weight: bold;
+}
